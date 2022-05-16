@@ -1,5 +1,4 @@
 const Search = ({
-
                     value,
                     onChange,
                     onSubmit,

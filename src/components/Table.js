@@ -5,11 +5,9 @@ import 'moment/locale/es';
 import Button from './Button';
 
 
-const Table = ({
-                   list,
+const Table = ({   list,
                    onDismiss}) =>
     <div className="table">
-
         {list.map(item =>
         {return <div key={item.objectID} className="table-row">
              <span style={{ width: '40%' }}>
